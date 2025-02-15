@@ -1,0 +1,12 @@
+D:\software\C#project\CareeCloudWebApi\CareerCloud\CareerCloud\bin\Debug\net6.0\CareerCloud.deps.json
+D:\software\C#project\CareeCloudWebApi\CareerCloud\CareerCloud\bin\Debug\net6.0\CareerCloud.dll
+D:\software\C#project\CareeCloudWebApi\CareerCloud\CareerCloud\bin\Debug\net6.0\CareerCloud.pdb
+D:\software\C#project\CareeCloudWebApi\CareerCloud\CareerCloud\obj\Debug\net6.0\CareerCloud.GeneratedMSBuildEditorConfig.editorconfig
+D:\software\C#project\CareeCloudWebApi\CareerCloud\CareerCloud\obj\Debug\net6.0\CareerCloud.AssemblyInfoInputs.cache
+D:\software\C#project\CareeCloudWebApi\CareerCloud\CareerCloud\obj\Debug\net6.0\CareerCloud.AssemblyInfo.cs
+D:\software\C#project\CareeCloudWebApi\CareerCloud\CareerCloud\obj\Debug\net6.0\CareerCloud.csproj.CoreCompileInputs.cache
+D:\software\C#project\CareeCloudWebApi\CareerCloud\CareerCloud\obj\Debug\net6.0\CareerCloud.dll
+D:\software\C#project\CareeCloudWebApi\CareerCloud\CareerCloud\obj\Debug\net6.0\refint\CareerCloud.dll
+D:\software\C#project\CareeCloudWebApi\CareerCloud\CareerCloud\obj\Debug\net6.0\CareerCloud.pdb
+D:\software\C#project\CareeCloudWebApi\CareerCloud\CareerCloud\obj\Debug\net6.0\ref\CareerCloud.dll
+D:\software\C#project\CareeCloudWebApi\CareerCloud\CareerCloud\obj\Debug\net6.0\CareerCloud.csproj.AssemblyReference.cache

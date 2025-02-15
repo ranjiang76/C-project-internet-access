@@ -1,0 +1,1748 @@
+[
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantEducationController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/applicant/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantJobApplicationController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/applicant/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantProfileController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/applicant/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantResumeController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/applicant/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantSkillController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/applicant/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantWorkHistoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/applicant/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantJobApplicationController",
+    "Method": "PostApplicantJobApplication",
+    "RelativePath": "api/careercloud/applicant/v1/applicant,/{ApplicantJobApplicationId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantJobApplicationPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantJobApplicationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantProfileController",
+    "Method": "PostApplicantProfile",
+    "RelativePath": "api/careercloud/applicant/v1/applicant,/{ApplicantProfileId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantProfilePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantProfileId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantResumeController",
+    "Method": "PostApplicantResume",
+    "RelativePath": "api/careercloud/applicant/v1/applicant,/{ApplicantResumeId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantResumePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantResumeId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantJobApplicationController",
+    "Method": "GetApplicantJobApplication",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantJobApplicationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantJobApplicationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantJobApplicationController",
+    "Method": "PutApplicantJobApplication",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantJobApplicationId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantJobApplicationPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantJobApplicationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantJobApplicationController",
+    "Method": "DeleteApplicantJobApplication",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantJobApplicationId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantJobApplicationPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantJobApplicationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantProfileController",
+    "Method": "GetApplicantProfile",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantProfileId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantProfileId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantProfileController",
+    "Method": "PutApplicantProfile",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantProfileId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantProfilePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantProfileId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantProfileController",
+    "Method": "DeleteApplicantProfile",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantProfileId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantProfilePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantProfileId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantResumeController",
+    "Method": "GetApplicantResume",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantResumeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantResumeId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantResumeController",
+    "Method": "PutApplicantResume",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantResumeId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantResumePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantResumeId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantResumeController",
+    "Method": "DeleteApplicantResume",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantResumeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantResumePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantResumeId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantSkillController",
+    "Method": "GetApplicantSkill",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantSkillId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantSkillId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantSkillController",
+    "Method": "PostApplicantSkill",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantSkillId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantSkillPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantSkillId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantSkillController",
+    "Method": "PutApplicantSkill",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantSkillId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantSkillPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantSkillId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantSkillController",
+    "Method": "DeleteApplicantSkill",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantSkillId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantSkillPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantSkillId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantWorkHistoryController",
+    "Method": "GetApplicantWorkHistory",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantWorkHistoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantWorkHistoryId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantWorkHistoryController",
+    "Method": "PostApplicantWorkHistory",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantWorkHistoryId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantWorkHistoryPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantWorkHistoryId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantWorkHistoryController",
+    "Method": "PutApplicantWorkHistory",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantWorkHistoryId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantWorkHistoryPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantWorkHistoryId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantWorkHistoryController",
+    "Method": "DeleteApplicantWorkHistory",
+    "RelativePath": "api/careercloud/applicant/v1/applicant/{ApplicantWorkHistoryId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantWorkHistoryPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantWorkHistoryId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantEducationController",
+    "Method": "GetApplicantEducation",
+    "RelativePath": "api/careercloud/applicant/v1/education/{applicantEducationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "applicantEducationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantEducationController",
+    "Method": "PostApplicantEducation",
+    "RelativePath": "api/careercloud/applicant/v1/education/{applicantEducationId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantEducationPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "applicantEducationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantEducationController",
+    "Method": "PutApplicantEducation",
+    "RelativePath": "api/careercloud/applicant/v1/education/{applicantEducationId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantEducationPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "applicantEducationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.ApplicantEducationController",
+    "Method": "DeleteApplicantEducation",
+    "RelativePath": "api/careercloud/applicant/v1/education/{applicantEducationId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.ApplicantEducationPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "applicantEducationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyDescriptionController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/company/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/company/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobEducationController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/company/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobsDescriptionController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/company/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobSkillController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/company/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyLocationController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/company/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyProfileController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/company/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobSkillController",
+    "Method": "GetCompanyJobSkill",
+    "RelativePath": "api/careercloud/company/v1/company/{ CompanyJobSkillId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": " CompanyJobSkillId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobSkillController",
+    "Method": "PostCompanyJobSkill",
+    "RelativePath": "api/careercloud/company/v1/company/{ CompanyJobSkillId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyJobSkillPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " CompanyJobSkillId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobSkillController",
+    "Method": "PutCompanyJobSkill",
+    "RelativePath": "api/careercloud/company/v1/company/{ CompanyJobSkillId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyJobSkillPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " CompanyJobSkillId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobSkillController",
+    "Method": "DeleteCompanyJobSkill",
+    "RelativePath": "api/careercloud/company/v1/company/{ CompanyJobSkillId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyJobSkillPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " CompanyJobSkillId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyLocationController",
+    "Method": "GetCompanyLocation",
+    "RelativePath": "api/careercloud/company/v1/company/{ CompanyLocationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": " CompanyLocationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyLocationController",
+    "Method": "PostCompanyLocation",
+    "RelativePath": "api/careercloud/company/v1/company/{ CompanyLocationId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyLocationPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " CompanyLocationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyLocationController",
+    "Method": "PutCompanyLocation",
+    "RelativePath": "api/careercloud/company/v1/company/{ CompanyLocationId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyLocationPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " CompanyLocationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyLocationController",
+    "Method": "DeleteCompanyLocation",
+    "RelativePath": "api/careercloud/company/v1/company/{ CompanyLocationId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyLocationPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " CompanyLocationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyProfileController",
+    "Method": "PostCompanyProfile",
+    "RelativePath": "api/careercloud/company/v1/company/{ CompanyLocationId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyProfilePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " CompanyLocationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyProfileController",
+    "Method": "GetCompanyProfile",
+    "RelativePath": "api/careercloud/company/v1/company/{ CompanyProfileId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": " CompanyProfileId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyProfileController",
+    "Method": "PutCompanyProfile",
+    "RelativePath": "api/careercloud/company/v1/company/{ CompanyProfileId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyProfilePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " CompanyProfileId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyProfileController",
+    "Method": "DeleteCompanyProfile",
+    "RelativePath": "api/careercloud/company/v1/company/{ CompanyProfileId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyProfilePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " CompanyProfileId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyDescriptionController",
+    "Method": "GetCompanyDescription",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyDescriptionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyDescriptionId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyDescriptionController",
+    "Method": "PostCompanyDescription",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyDescriptionId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyDescriptionPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyDescriptionId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyDescriptionController",
+    "Method": "PutCompanyDescription",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyDescriptionId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyDescriptionPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyDescriptionId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyDescriptionController",
+    "Method": "DeleteCompanyDescription",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyDescriptionId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyDescriptionPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyDescriptionId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobsDescriptionController",
+    "Method": "GetCompanyJobsDescription",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyJobDescriptionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyJobDescriptionId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobsDescriptionController",
+    "Method": "PostCompanyJobsDescription",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyJobDescriptionId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyJobDescriptionPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyJobDescriptionId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobsDescriptionController",
+    "Method": "DeleteCompanyJobsDescription",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyJobDescriptionId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyJobDescriptionPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyJobDescriptionId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobEducationController",
+    "Method": "GetCompanyJobEducation",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyJobEducationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyJobEducationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobEducationController",
+    "Method": "PostCompanyJobEducation",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyJobEducationId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyJobEducationPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyJobEducationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobEducationController",
+    "Method": "PutCompanyJobEducation",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyJobEducationId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyJobEducationPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyJobEducationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobEducationController",
+    "Method": "DeleteCompanyJobEducation",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyJobEducationId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyJobEducationPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyJobEducationId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobController",
+    "Method": "GetCompanyJob",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyJobId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyJobId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobController",
+    "Method": "PostCompanyJob",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyJobId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyJobPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyJobId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobController",
+    "Method": "PutCompanyJob",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyJobId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyJobPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyJobId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobController",
+    "Method": "DeleteCompanyJob",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyJobId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyJobPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyJobId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.CompanyJobsDescriptionController",
+    "Method": "PutCompanyJobsDescription",
+    "RelativePath": "api/careercloud/company/v1/company/{CompanyJobsDescriptionId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.CompanyJobDescriptionPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyJobsDescriptionId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/security/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginsLogController",
+    "Method": "GetAll",
+    "RelativePath": "api/careercloud/security/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginController",
+    "Method": "GetSecurityLogin",
+    "RelativePath": "api/careercloud/security/v1/security/{ SecurityLoginId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": " SecurityLoginId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginController",
+    "Method": "PostSecurityLogin",
+    "RelativePath": "api/careercloud/security/v1/security/{ SecurityLoginId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SecurityLoginPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " SecurityLoginId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginController",
+    "Method": "DeleteSecurityLogin",
+    "RelativePath": "api/careercloud/security/v1/security/{ SecurityLoginId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SecurityLoginPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " SecurityLoginId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginsLogController",
+    "Method": "GetSecurityLoginLog",
+    "RelativePath": "api/careercloud/security/v1/security/{ SecurityLoginsLogId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": " SecurityLoginsLogId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginsLogController",
+    "Method": "PostSecurityLoginLog",
+    "RelativePath": "api/careercloud/security/v1/security/{ SecurityLoginsLogId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SecurityLoginsLogPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " SecurityLoginsLogId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginsLogController",
+    "Method": "DeleteSecurityLoginLog",
+    "RelativePath": "api/careercloud/security/v1/security/{ SecurityLoginsLogId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SecurityLoginsLogPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " SecurityLoginsLogId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginController",
+    "Method": "PutSecurityLogin",
+    "RelativePath": "api/careercloud/security/v1/security/{SecurityLoginId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SecurityLoginPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SecurityLoginId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginsLogController",
+    "Method": "PutSecurityLoginLog",
+    "RelativePath": "api/careercloud/security/v1/security/{SecurityLoginsLogId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SecurityLoginsLogPoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SecurityLoginsLogId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginsRoleController",
+    "Method": "PostSecurityLoginRole",
+    "RelativePath": "security/{ SecurityLoginsRoleId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SecurityLoginsRolePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " SecurityLoginsRoleId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginsRoleController",
+    "Method": "GetSecurityLoginsRole",
+    "RelativePath": "security/{ SecurityLoginsRoleLogId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": " SecurityLoginsRoleLogId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityRoleController",
+    "Method": "GetSecurityRole",
+    "RelativePath": "security/{ SecurityRoleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": " SecurityRoleId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityRoleController",
+    "Method": "PostSecurityRole",
+    "RelativePath": "security/{ SecurityRoleId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SecurityRolePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " SecurityRoleId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginsRoleController",
+    "Method": "PutSecurityLoginsRole",
+    "RelativePath": "security/{SecurityLoginsRoleId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SecurityLoginsRolePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SecurityLoginsRoleId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityLoginsRoleController",
+    "Method": "DeleteSecurityLoginRole",
+    "RelativePath": "security/{SecurityLoginsRoleId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SecurityLoginsRolePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SecurityLoginsRoleId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityRoleController",
+    "Method": "PutSecurityRole",
+    "RelativePath": "security/{SecurityRoleId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SecurityRolePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SecurityRoleId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SecurityRoleController",
+    "Method": "DeleteSecurityRole",
+    "RelativePath": "security/{SecurityRoleId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SecurityRolePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SecurityRoleId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SystemCountryCodeController",
+    "Method": "GetSystemCountryCode",
+    "RelativePath": "system/{ SystemCountryCodeCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": " SystemCountryCodeCode",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SystemCountryCodeController",
+    "Method": "PostSystemCountryCode",
+    "RelativePath": "system/{ SystemCountryCodeCode}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SystemCountryCodePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " SystemCountryCodeCode",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SystemLanguageCodeController",
+    "Method": "GetSystemLanguageCode",
+    "RelativePath": "system/{ SystemLanguageCodeLanguageID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LanguageID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": " SystemLanguageCodeLanguageID",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SystemLanguageCodeController",
+    "Method": "PostSystemLanguageCode",
+    "RelativePath": "system/{ SystemLanguageCodeLanguageID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SystemLanguageCodePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": " SystemLanguageCodeLanguageID",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SystemCountryCodeController",
+    "Method": "PutSystemCountryCode",
+    "RelativePath": "system/{SystemCountryCodeCode}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SystemCountryCodePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SystemCountryCodeCode",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SystemCountryCodeController",
+    "Method": "DeleteSystemCountryCode",
+    "RelativePath": "system/{SystemCountryCodeCode}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SystemCountryCodePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SystemCountryCodeCode",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SystemLanguageCodeController",
+    "Method": "PutSystemLanguageCode",
+    "RelativePath": "system/{SystemLanguageCodeLanguageID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SystemLanguageCodePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SystemLanguageCodeLanguageID",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CareerCloud.WebAPI.Controllers.SystemLanguageCodeController",
+    "Method": "DeleteSystemLanguageCode",
+    "RelativePath": "system/{SystemLanguageCodeLanguageID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "CareerCloud.Pocos.SystemLanguageCodePoco[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SystemLanguageCodeLanguageID",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

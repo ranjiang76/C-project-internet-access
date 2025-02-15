@@ -1,0 +1,17 @@
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\bin\Debug\net6.0\CareerCloud.ADODataAccessLayer.deps.json
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\bin\Debug\net6.0\CareerCloud.ADODataAccessLayer.dll
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\bin\Debug\net6.0\CareerCloud.ADODataAccessLayer.pdb
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\bin\Debug\net6.0\CareerCloud.DataAccessLayer.dll
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\bin\Debug\net6.0\CareerCloud.Pocos.dll
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\bin\Debug\net6.0\CareerCloud.DataAccessLayer.pdb
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\bin\Debug\net6.0\CareerCloud.Pocos.pdb
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\CareerCloud.ADODataAccessLayer.csproj.AssemblyReference.cache
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\CareerCloud.ADODataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\CareerCloud.ADODataAccessLayer.AssemblyInfoInputs.cache
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\CareerCloud.ADODataAccessLayer.AssemblyInfo.cs
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\CareerCloud.ADODataAccessLayer.csproj.CoreCompileInputs.cache
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\CareerCl.66CC7562.Up2Date
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\CareerCloud.ADODataAccessLayer.dll
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\refint\CareerCloud.ADODataAccessLayer.dll
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\CareerCloud.ADODataAccessLayer.pdb
+D:\software\C#project\CareeCloudWebApi\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\ref\CareerCloud.ADODataAccessLayer.dll

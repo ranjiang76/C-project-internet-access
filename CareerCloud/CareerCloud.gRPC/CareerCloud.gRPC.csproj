@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Protos\ApplicantJobApplication.proto" />
+    <None Remove="Protos\ApplicantProfile.proto" />
+    <None Remove="Protos\CompanyDescription.proto" />
+    <None Remove="Protos\CompanyJob.proto" />
+    <None Remove="Protos\CompanyJobEducation.proto" />
+    <None Remove="Protos\SecurityLogin.proto" />
+    <None Remove="Protos\SecurityLoginsLog.proto" />
+    <None Remove="Protos\SystemLanguageCode.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\CompanyDescription.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\ApplicantJobApplication.proto" />
+    <Protobuf Include="Protos\ApplicantProfile.proto" />
+    <Protobuf Include="Protos\CompanyJobEducation.proto" />
+    <Protobuf Include="Protos\CompanyJob.proto" />
+    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\ApplicantEducation.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\SecurityLogin.proto" />
+    <Protobuf Include="Protos\SecurityLoginsLog.proto" />
+    <Protobuf Include="Protos\SystemLanguageCode.proto" />
+  </ItemGroup>
+
+
+	<ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.27.1" />
+    <PackageReference Include="Grpc.Core" Version="2.46.6" />
+    <PackageReference Include="Grpc.Tools" Version="2.64.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CareerCloud.BusinessLogicLayer\CareerCloud.BusinessLogicLayer.csproj" />
+    <ProjectReference Include="..\..\CareerCloud.DataAccessLayer\CareerCloud.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\..\CareerCloud.EntityFrameworkDataAccess\CareerCloud.EntityFrameworkDataAccess.csproj" />
+    <ProjectReference Include="..\..\CareerCloudProco\CareerCloud.Pocos.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+D:\software\C#project\CareeCloudWebApi\CareerCloud.DataAccessLayer\bin\Debug\net6.0\CareerCloud.DataAccessLayer.deps.json
+D:\software\C#project\CareeCloudWebApi\CareerCloud.DataAccessLayer\bin\Debug\net6.0\CareerCloud.DataAccessLayer.dll
+D:\software\C#project\CareeCloudWebApi\CareerCloud.DataAccessLayer\bin\Debug\net6.0\CareerCloud.DataAccessLayer.pdb
+D:\software\C#project\CareeCloudWebApi\CareerCloud.DataAccessLayer\obj\Debug\net6.0\CareerCloud.DataAccessLayer.csproj.AssemblyReference.cache
+D:\software\C#project\CareeCloudWebApi\CareerCloud.DataAccessLayer\obj\Debug\net6.0\CareerCloud.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\software\C#project\CareeCloudWebApi\CareerCloud.DataAccessLayer\obj\Debug\net6.0\CareerCloud.DataAccessLayer.AssemblyInfoInputs.cache
+D:\software\C#project\CareeCloudWebApi\CareerCloud.DataAccessLayer\obj\Debug\net6.0\CareerCloud.DataAccessLayer.AssemblyInfo.cs
+D:\software\C#project\CareeCloudWebApi\CareerCloud.DataAccessLayer\obj\Debug\net6.0\CareerCloud.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\software\C#project\CareeCloudWebApi\CareerCloud.DataAccessLayer\obj\Debug\net6.0\CareerCloud.DataAccessLayer.dll
+D:\software\C#project\CareeCloudWebApi\CareerCloud.DataAccessLayer\obj\Debug\net6.0\refint\CareerCloud.DataAccessLayer.dll
+D:\software\C#project\CareeCloudWebApi\CareerCloud.DataAccessLayer\obj\Debug\net6.0\CareerCloud.DataAccessLayer.pdb
+D:\software\C#project\CareeCloudWebApi\CareerCloud.DataAccessLayer\obj\Debug\net6.0\ref\CareerCloud.DataAccessLayer.dll
